@@ -1,5 +1,19 @@
+.header-element {
+  background-color:#b20a2c;
+  position: absolute;
+  color: white;
+  width: 600px;
+  height: 280px;
+  margin-left: 35%;
+  margin-top: 8%;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+
+
 body, html{
-    background-color:#34515E;
+    background-color:#b20a2c;
    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
 
@@ -51,7 +65,6 @@ body, html{
     color: white;
     background-color:darkolivegreen;
 }
-
 
 
 .register-form label{
