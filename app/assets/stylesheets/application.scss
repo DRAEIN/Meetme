@@ -1,19 +1,30 @@
 .header-element {
-  background-color:#b20a2c;
-  position: absolute;
-  color: white;
-  width: 600px;
-  height: 280px;
-  margin-left: 35%;
-  margin-top: 8%;
-  font-family: 'Open Sans Condensed', sans-serif;
+    background-color:#E29587;
+    color: white;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 38%;
+    top: 12%;
+}
 
+.container-flash {
+    background-color:#E29587;
+    color: white;
+    top: 10%;
+    position: absolute;
+}
+
+.index-content {
+    position: absolute;
+    color: white;
+    left: 38%;
+    top: 12%;
 }
 
 
-
 body, html{
-    background-color:#b20a2c;
+    background-color:#E29587;
    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
 
@@ -67,6 +78,7 @@ body, html{
 }
 
 
+
 .register-form label{
     color: aliceblue;
     
@@ -77,6 +89,9 @@ body, html{
     height: 40px;
     border-radius: 0px;
 }
+
+
+
 
 
 @import "bootstrap-sprockets";

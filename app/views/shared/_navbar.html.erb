@@ -1,16 +1,17 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Meetme ;)</a>
-    </div>
     <ul class="nav navbar-nav">
+      <li><%= link_to 'MEETME ;)', root_path %></li>
       <li><a href="#"><span class="glyphicon glyphicon-comment"></span> Chat</a></li>
       <li><a href="#">Browse Profiles (m)</a></li>
       <li><a href="#">Browse Profiles (w)</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><%= link_to 'Login', new_user_session_path %></li>
+      <% if user_signed_in? %>
+      <li><%= link_to 'Log Out', destroy_user_session_path, method: :delete %></li>
+      <% end %>
     </ul>
   </div>
 </nav>
